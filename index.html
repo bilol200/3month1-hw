@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator</title>
+    <style>
+        .valid {
+            border: 2px solid green;
+        }
+
+        .invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="textInput">Введите текст:</label>
+    <input type="text" id="textInput" oninput="validateInput()">
+
+    <div id="urlResult"></div>
+    <div id="emailResult"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
